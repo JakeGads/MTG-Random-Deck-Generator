@@ -8,11 +8,13 @@ from selenium.webdriver.chrome.options import Options
 
 # Set up Chrome options for better performance and reliability
 options = Options()
-# chrome_options.add_argument("--headless")  # Uncomment this line to run in headless mode
+# options.add_argument("--headless")  # Uncomment this line to run in headless mode
+options.add_argument("--window-size=1920,1080")
+options.add_argument("--start-minimized")  # Start browser minimized
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1920,1080")
+
 # Add an argument to make output nonverbose
 options.add_argument("--log-level=3") 
 

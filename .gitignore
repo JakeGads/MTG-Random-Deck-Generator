@@ -5,3 +5,4 @@ env/
 deck_urls.json
 *.egg-info/
 build/
+fetched decks/*
