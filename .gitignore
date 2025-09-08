@@ -1,0 +1,7 @@
+latest_deck.txt
+.vscode/
+__pycache__/
+env/
+deck_urls.json
+*.egg-info/
+build/
